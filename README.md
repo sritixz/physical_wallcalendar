@@ -1,16 +1,42 @@
-# React + Vite
+# 📅 Interactive Wall Calendar 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-fidelity, interactive wall calendar . This project focuses on complex state management, persistent data, and a polished user interface.
 
-Currently, two official plugins are available:
+## 🔗 Project Links
+- **Live Demo**: https://physicalwallcalendar.netlify.app/
+- **Video Demonstration**: https://www.loom.com/share/802c4e47d5c141fba67375161cf4bd01
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Key Features
+- **Interactive Range Selection**: Click a start and end date to highlight a range in the brand's orange accent color.
+- **Data Persistence**: Uses `localStorage` to ensure that Monthly Notes, Date-Specific Notes, and your selected Date Range remain saved even after a page refresh.
+- **Dynamic UI**: Includes a "Wall Mounting" aesthetic with a spiral binding, hero image spotlight effects, and full Dark Mode support.
+- **Responsive Design**: Fully functional across desktop, tablet, and mobile breakpoints.
 
-## React Compiler
+## 🛠️ Tech Stack
+- **Framework**: React.js (Vite)
+- **Styling**: Tailwind CSS v4
+- **Icons**: Lucide React / Inline SVGs
+- **Date Logic**: date-fns
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Local Setup Instructions
 
-## Expanding the ESLint configuration
+Follow these steps to run the project on your local machine:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/sritixz/physical_wallcalendar.git
+   cd physical_wallcalendar
+   ```
+2.Install dependencies:
+```bash
+   npm install
+ ```
+3.Run the development server:
+```bash
+   npm run dev
+ ```
+4. Build for production:
+```bash
+  npm run build
+    
+   
